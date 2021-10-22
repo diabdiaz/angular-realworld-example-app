@@ -2,7 +2,7 @@
 
 describe('start page', () => {
     it('displays conduit title', () => {
-    cy.visit('http://localhost:4200/')
+    cy.visit('/')
     cy.contains('conduit')
   })
 })

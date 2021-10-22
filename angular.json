@@ -67,7 +67,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "ang2-conduit:build",
+            "disableHostCheck": true
           },
           "configurations": {
             "production": {

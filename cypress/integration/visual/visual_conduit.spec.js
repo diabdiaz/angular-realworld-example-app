@@ -2,7 +2,7 @@
 
 describe('visual conduit', () => {
    it('home', () => {
-    cy.visit('http://localhost:4200/')
+    cy.visit('/')
     cy.contains('conduit')
     cy.matchImageSnapshot();
     })
